@@ -1,0 +1,14 @@
+{
+  "name": "dan-stingaciu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free personal engineering portfolio.",
+  "scripts": {
+    "lint": "node --check assets/js/main.js && node --check scripts/check.mjs && node --check scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
